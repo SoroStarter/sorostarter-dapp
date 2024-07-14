@@ -194,7 +194,7 @@ export default function Header({
                             rounded-xl
                             font-pj
                            min-w-[160px]
-                           bg-yellow-500 text-white
+                           bg-yellow-500 text-black
 
                           
                         "
