@@ -260,31 +260,31 @@ export default function Header({
               <div className="grid gap-y-7">
                 <Link
                   onClick={toggleExpanded}
-                  to="/contracts"
+                  to="/projects"
                   title=""
                   className="flex items-center p-3 -m-3 text-base font-medium text-gray-200 transition-all duration-200 rounded-xl hover:bg-gray-50 font-pj "
                 >
                   {" "}
-                  Smart Contracts
+                  Projects
                 </Link>
 
                 <Link
                   onClick={toggleExpanded}
-                  to="/playground"
+                  to="/dashboard"
                   title=""
                   className="flex items-center p-3 -m-3 text-base font-medium text-gray-200 transition-all duration-200 rounded-xl hover:bg-gray-50  font-pj "
                 >
-                  dApp Playground
+                  Dashboard
                 </Link>
 
                 <Link
                   onClick={toggleExpanded}
-                  to="/sorobuild-ui"
+                  to=""
                   title=""
                   className="flex items-center p-3 -m-3 text-base font-medium text-gray-200 transition-all duration-200 rounded-xl hover:bg-gray-50 font-pj "
                 >
                   {" "}
-                  SoroBuild UI
+                  Launch with SoroStarter
                 </Link>
 
                 <a
